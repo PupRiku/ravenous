@@ -71,7 +71,7 @@ class SearchBar extends React.Component {
                 </div>
                 <div className="SearchBar-submit">
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                    <a>Let's Go</a>
+                    <a onClick={this.handleSearch}>Let's Go</a>
                 </div>
             </div>
         );
